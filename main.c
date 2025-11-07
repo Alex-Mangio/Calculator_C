@@ -9,7 +9,6 @@ double divOp(double  num1, double  num2);
 double equalOp(double *arr1, char *arr2, int size);
 
 int main () {
-    //double num1 = 0, num2 = 0;
     double num;
     char op = '\0';
     char input = '\0';
@@ -108,7 +107,7 @@ int main () {
             }
         }
 
-        printf("The result is: %.2f\n", equalOp(arr, ops, nChar));
+        printf("The result is: %.8f\n", equalOp(arr, ops, nChar));
 
         while (1) {
             printf("Do you want to keep going? (Y/N): ");
